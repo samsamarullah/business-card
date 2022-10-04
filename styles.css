@@ -1,0 +1,59 @@
+body {
+    margin: 20px;
+    background-color: #f9fcee;
+    font-family: arial, Geneva, Tahoma, sans-serif;
+}
+
+h2, p, h4 {
+    color: #656d4a;   
+}
+
+h2:hover {
+    color: #6c584c;
+    font-weight: 700;
+}
+
+.avatar {
+    width: 150px;
+    border: 2px solid #adc178;
+}
+
+/* Hovering effect on profile picture*/
+.avatar:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #f0ead2;
+    color: #2b2839;
+    border-bottom: 6px solid #adc178;
+    border-right: 6px solid #adc178;
+    border-radius: 10px; 
+}
+
+/* Social Media class from "font awesome properties*/
+.fa {
+    color: #79675c;
+    margin-right: 10px;
+}
+
+/* Hovering effect on social media icons */
+.fa-instagram:hover {
+    color: #bc2a8d;
+}
+.fa-linkedin:hover {
+    color: #0a66c2;
+}  
+.fa-twitter:hover {
+    color: #1d9bf0;
+} 
+
+
+
